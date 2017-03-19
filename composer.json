@@ -1,0 +1,16 @@
+{
+    "name": "ratacibernetica/php-flatten-array",
+    "description": "Flatten an array.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Roldan Araujo",
+            "email": "mroldan@webmonster.mx"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "codeception/codeception": "dev-master"
+    }
+}
