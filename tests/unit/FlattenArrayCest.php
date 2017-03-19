@@ -18,4 +18,5 @@ class FlattenArrayCest
 
         $I->assertEquals( $flattenedArray, [1,2,3,4]);
     }
+
 }

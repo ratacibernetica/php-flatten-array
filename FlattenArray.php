@@ -3,15 +3,15 @@ namespace ratacibernetica;
 
 class FlattenArray {
     
-    public static function flattenArray( $unFlattened ) {
-            return array_reduce($unFlattened, function($item,$item2){
+    public static function flattenArray( array $unFlattened ) {
+            return array_reduce($unFlattened, function( $carry, $item2){
                     if(!is_array($item2)){
-                        $item[]= $item2;
+                        $carry[]= $item2;
                     }
                     else{
-                        $item = array_merge($item, self::flattenArray($item2));
+                        $carry = array_merge($carry, self::flattenArray($item2));
                     }
-                    return $item;
+                    return $carry;
                 },[]);
         }
         
