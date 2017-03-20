@@ -10,7 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
+    "require-dev": {
         "codeception/codeception": "dev-master"
     }
 }

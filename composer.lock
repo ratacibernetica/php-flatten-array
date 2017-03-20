@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c80d1714437587adaf637457b665d54",
-    "packages": [
+    "content-hash": "09983b3d35486068e062f707ca39e9f9",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "behat/gherkin",
             "version": "dev-master",
@@ -951,12 +952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "cddfa89d553d92188abf742037aa6fc9343fc2cb"
+                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cddfa89d553d92188abf742037aa6fc9343fc2cb",
-                "reference": "cddfa89d553d92188abf742037aa6fc9343fc2cb",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/68752b665d3875f9a38a357e3ecb35c79f8673bf",
+                "reference": "68752b665d3875f9a38a357e3ecb35c79f8673bf",
                 "shasum": ""
             },
             "require": {
@@ -1025,7 +1026,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-03-18 13:08:54"
+            "time": "2017-03-19T16:52:12+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2357,7 +2358,6 @@
             "time": "2016-11-23 20:04:41"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {

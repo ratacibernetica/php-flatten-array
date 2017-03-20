@@ -1,6 +1,10 @@
 # php-flatten-array
 Flatten an array.
 
+### Install
+
+`composer require ratacibernetica/php-flatten-array`
+
 1. Expected input:  
 ```php
 [ 1, [ 2 ], [[3],[[4]]]];
