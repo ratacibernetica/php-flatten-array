@@ -9,7 +9,7 @@
             "email": "mroldan@webmonster.mx"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require-dev": {
         "codeception/codeception": "dev-master"
     }
