@@ -18,6 +18,10 @@ class FlattenArrayCest
 	$flattenedArray = $flattener->flattened;
 
         $I->assertEquals( $flattenedArray, [1,2,3,4]);
+
+	$otherFlat = $flattener->flattenArray( [1, [2], [3], [[4],[5]]] );
+	$I->assertEquals( $otherFlat, [1,2,3,4,5]);
+
     }
 
 }

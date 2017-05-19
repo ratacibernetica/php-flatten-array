@@ -16,10 +16,14 @@ Flatten an array.
 ```
 ### Example Usage:
 ```php
-$multipleArray = [ 1, [ 2 ], [[3],[[4]]]];
-$flattenedArray = ratacibernetica\FlattenArray::flattenArray($multipleArray);
+	$multipleArray = [ 1, [ 2 ], [[3],[[4]]]];
+        $flattener = new ratacibernetica\FlattenArray($multipleArray);
+        $flattenedArray = $flattener->flattened;
 
-//$flattenedArray equals [1,2,3,4]
+        // equals $flattenedArray, [1,2,3,4]);
+
+        $otherFlat = $flattener->flattenArray( [1, [2], [3], [[4],[5]]] );
+        // equals( $otherFlat, [1,2,3,4,5]);
 ```
 
 ### Run tests
